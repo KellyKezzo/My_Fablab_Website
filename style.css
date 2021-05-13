@@ -1,0 +1,69 @@
+body {
+    background-color:  #cee1e6;
+    font-family: Raleway;
+}
+a{
+    text-decoration: none;
+    color: #34666f;
+}
+
+#container{
+   background-color:#b8d2d8 ; 
+   background-image: url("img/brush.jpg");
+   background-size: 900px;
+   background-position: right;
+   background-position-x: right;
+   width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+#header {
+    background-color: #34666f;
+    color: #fbe3d1;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#content{
+    padding: 10px;
+}
+#nav{
+    width: 150px;
+    height: 200px;
+    background-color: #93bdbf;
+    color: #fbe3d1;
+    float: left;
+    
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+#nav.selected{
+    font-weight: bold;
+}
+#main{
+    width: 600px;
+    float: right;
+    margin-bottom: 30px;
+}
+.img-brain{
+    width: 300px;
+    float: left;  
+    
+}
+
+.draft-video{
+    float: right;
+}
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: #34666f;
+    color: #fbe3d1;
+    text-align: right;
+   
+    
+}
